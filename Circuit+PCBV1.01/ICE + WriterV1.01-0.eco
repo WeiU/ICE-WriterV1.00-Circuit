@@ -1,0 +1,19 @@
+*PADS-ECO-V10.0-MILS*
+
+*REMARK* -- ICE + WriterV1.00_7.pcb -- Mon Mar 30 15:02:30 2020
+
+
+*DELPIN*
+L2.1    USB_VDD
+L2.2    $$$11156
+
+*DELPART*
+L2 L
+
+*DELPIN*
+L1.1    USB_VDD
+L1.2    $$$27023
+
+*DELPART*
+L1 L
+*END*

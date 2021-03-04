@@ -1,0 +1,88 @@
+*
+*
+G04 PADS VX.2.4 Build Number: 11282995 generated Gerber (RS-274-X) file*
+G04 PC Version=2.1*
+*
+%IN "WriterTranBo(Empty).pcb"*%
+*
+%MOIN*%
+*
+%FSLAX35Y35*%
+*
+*
+*
+*
+G04 PC Standard Apertures*
+*
+*
+G04 Thermal Relief Aperture macro.*
+%AMTER*
+1,1,$1,0,0*
+1,0,$1-$2,0,0*
+21,0,$3,$4,0,0,45*
+21,0,$3,$4,0,0,135*
+%
+*
+*
+G04 Annular Aperture macro.*
+%AMANN*
+1,1,$1,0,0*
+1,0,$2,0,0*
+%
+*
+*
+G04 Odd Aperture macro.*
+%AMODD*
+1,1,$1,0,0*
+1,0,$1-0.005,0,0*
+%
+*
+*
+G04 PC Custom Aperture Macros*
+*
+*
+*
+*
+*
+*
+G04 PC Aperture Table*
+*
+%ADD010C,0.001*%
+%ADD022C,0.02*%
+*
+*
+*
+*
+G04 PC Circuitry*
+G04 Layer Name WriterTranBo(Empty).pcb - circuitry*
+%LPD*%
+*
+*
+G04 PC Custom Flashes*
+G04 Layer Name WriterTranBo(Empty).pcb - flashes*
+%LPD*%
+*
+*
+G04 PC Circuitry*
+G04 Layer Name WriterTranBo(Empty).pcb - circuitry*
+%LPD*%
+*
+G54D10*
+G54D22*
+G01X93583Y69126D02*
+X333000D01*
+Y343874*
+X93583*
+Y69126*
+X110385Y160000D02*
+G75*
+G03X110385I-5385J0D01*
+G01X110831Y240000D02*
+G03X110831I-5831J0D01*
+G01X328299Y82000D02*
+G03X328299I-6299J0D01*
+G01Y333000D02*
+G03X328299I-6299J0D01*
+G74*
+G01X0Y0D02*
+M02*

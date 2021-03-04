@@ -1,0 +1,111 @@
+*
+*
+G04 PADS VX.2.4 Build Number: 11282995 generated Gerber (RS-274-X) file*
+G04 PC Version=2.1*
+*
+%IN "NewICE to OLDICE.pcb"*%
+*
+%MOIN*%
+*
+%FSLAX35Y35*%
+*
+*
+*
+*
+G04 PC Standard Apertures*
+*
+*
+G04 Thermal Relief Aperture macro.*
+%AMTER*
+1,1,$1,0,0*
+1,0,$1-$2,0,0*
+21,0,$3,$4,0,0,45*
+21,0,$3,$4,0,0,135*
+%
+*
+*
+G04 Annular Aperture macro.*
+%AMANN*
+1,1,$1,0,0*
+1,0,$2,0,0*
+%
+*
+*
+G04 Odd Aperture macro.*
+%AMODD*
+1,1,$1,0,0*
+1,0,$1-0.005,0,0*
+%
+*
+*
+G04 PC Custom Aperture Macros*
+*
+*
+*
+*
+*
+*
+G04 PC Aperture Table*
+*
+%ADD010C,0.001*%
+%ADD023C,0.01*%
+%ADD068R,0.08087X0.08087*%
+%ADD069C,0.08087*%
+%ADD082R,0.08874X0.10055*%
+*
+*
+*
+*
+G04 PC Circuitry*
+G04 Layer Name NewICE to OLDICE.pcb - circuitry*
+%LPD*%
+*
+*
+G04 PC Custom Flashes*
+G04 Layer Name NewICE to OLDICE.pcb - flashes*
+%LPD*%
+*
+*
+G04 PC Circuitry*
+G04 Layer Name NewICE to OLDICE.pcb - circuitry*
+%LPD*%
+*
+G54D10*
+G54D23*
+G01X25200Y40000D02*
+X149000D01*
+Y160000*
+X25200*
+Y40000*
+X146299Y150000D02*
+G75*
+G03X146299I-6299J0D01*
+G01Y50000D02*
+G03X146299I-6299J0D01*
+G01X40636Y139700D02*
+G03X40636I-5636J0D01*
+G01X40961Y59900D02*
+G03X40961I-6061J0D01*
+G54D68*
+G01X55000Y120000D03*
+X135000D03*
+G54D69*
+X55000Y110000D03*
+Y100000D03*
+Y90000D03*
+Y80000D03*
+X45000D03*
+Y90000D03*
+Y100000D03*
+Y110000D03*
+Y120000D03*
+X135000Y110000D03*
+Y100000D03*
+Y90000D03*
+Y80000D03*
+G54D82*
+X71339Y120000D03*
+X88661D03*
+G74*
+X0Y0D02*
+M02*
